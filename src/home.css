@@ -1,0 +1,35 @@
+.home_image{
+    width:100%;
+    z-index:-1;
+    margin-bottom:-150px;
+    mask-image:linear-gradient(to bottom,rgb(0,0,0,1),rgb(0,0,0,0));
+}
+.card_coll{
+    background-color: white;
+    padding:10px;
+    margin:25px;
+    border-radius: 10px;
+}
+.card_coll:hover{
+    box-shadow: 	0px 0px 15px 9px rgba(0, 0, 0, 0.3);
+    border:	1px solid rgba(0, 0, 0,  0.1);
+    border-radius:	6px;
+
+}
+.home_containerl{
+    background-color: rgb(234,237,237);
+}
+.home_containerd{
+    background-color: black;
+}
+.card_cold{
+    background-color:black;
+    padding:10px;
+    margin:25px;
+    border-radius: 10px;
+}
+.card_cold:hover{
+    box-shadow: 	0px 0px 15px 9px rgba(255, 255, 255, 0.3);
+    border:	1px solid rgba(255, 255, 255, 0.1);
+    border-radius:	6px;
+}

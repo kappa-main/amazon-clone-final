@@ -1,0 +1,427 @@
+[debug] [2023-05-23T08:10:25.167Z] ----------------------------------------------------------------------
+[debug] [2023-05-23T08:10:25.169Z] Command:       D:\node.exe C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-05-23T08:10:25.170Z] CLI Version:   11.25.2
+[debug] [2023-05-23T08:10:25.170Z] Platform:      win32
+[debug] [2023-05-23T08:10:25.170Z] Node Version:  v18.13.0
+[debug] [2023-05-23T08:10:25.172Z] Time:          Tue May 23 2023 13:40:25 GMT+0530 (India Standard Time)
+[debug] [2023-05-23T08:10:25.172Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-23T08:10:25.188Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-23T08:10:25.337Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-23T08:10:25.338Z] > authorizing via signed-in user (saad26ahmed@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-05-23T08:10:25.357Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-05-23T08:10:25.357Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-05-23T08:10:25.357Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-05-23T08:10:25.369Z] [hub] writing locator at C:\Users\Saad\AppData\Local\Temp\hub-challenge2-5e031.json
+[debug] [2023-05-23T08:10:25.390Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-05-23T08:10:25.390Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-05-23T08:10:25.390Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-05-23T08:10:25.406Z] defaultcredentials: writing to file C:\Users\Saad\AppData\Roaming\firebase\saad26ahmed_gmail_com_application_default_credentials.json
+[debug] [2023-05-23T08:10:25.415Z] Setting GAC to C:\Users\Saad\AppData\Roaming\firebase\saad26ahmed_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Saad\\AppData\\Roaming\\firebase\\saad26ahmed_gmail_com_application_default_credentials.json"}}
+[debug] [2023-05-23T08:10:25.417Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T08:10:25.419Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T08:10:25.419Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-05-23T08:10:47.351Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-05-23T08:10:50.426Z] Failed to get Admin SDK config for challenge2-5e031, falling back to cacheFailed to get Admin SDK for Firebase project challenge2-5e031. Please make sure the project exists and your account has permission to access it. {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Admin SDK for Firebase project challenge2-5e031. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"exit":1,"message":"Authentication Error: Your credentials are no longer valid. Please run \u001b[1mfirebase login --reauth\u001b[22m\n\nFor CI servers and headless environments, generate a new token with \u001b[1mfirebase login:ci\u001b[22m","status":500},"status":500}
+[debug] [2023-05-23T08:10:50.446Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T08:10:50.446Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T08:10:50.446Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-23T08:11:11.498Z] Failed to list hosting sites
+[debug] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-05-23T08:11:11.499Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T08:11:11.500Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T08:11:11.500Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-23T08:11:32.552Z] fetchWebSetup error: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[warn] !  hosting: Using web app configuration from cache. 
+[debug] [2023-05-23T08:11:32.554Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T08:11:32.554Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T08:11:32.554Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-23T08:11:54.662Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[info] i  hosting[challenge2-5e031]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[challenge2-5e031]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-05-23T08:11:54.782Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-05-23T08:11:54.783Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-05-23T08:11:54.783Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Saad\\.cache\\firebase\\emulators\\ui-v1.11.4\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Saad\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.4\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-05-23T08:11:55.164Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-05-23T08:11:55.164Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\Saad\Amazon App\my-app\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Saad\\Amazon App\\my-app\\functions\" for Cloud Functions..."}}
+[debug] [2023-05-23T08:11:55.317Z] Validating nodejs source
+[debug] [2023-05-23T08:12:05.371Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1110:20)
+    at Object.spawnSync (node:child_process:871:24)
+    at Function.spawnSync [as sync] (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:55:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:76:32)
+    at Delegate.validate (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:84:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:291:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:320:34)
+    at async FunctionsEmulator.connect (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:257:13)
+    at async Object.startAll (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:558:13)
+    at async C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\emulators-start.js:32:43
+[debug] [2023-05-23T08:12:05.373Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0",
+    "stripe": "^11.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-05-23T08:12:05.380Z] Building nodejs source
+[debug] [2023-05-23T08:12:05.381Z] Failed to find version of module node: reached end of search path C:\Users\Saad\Amazon App\my-app\functions\node_modules
+[warn] !  functions: Your requested "node" version "16" doesn't match your global version "18". Using node@18 from host. 
+[debug] [2023-05-23T08:12:05.384Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-05-23T08:12:05.396Z] Found firebase-functions binary at 'C:\Users\Saad\Amazon App\my-app\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-05-23T08:12:07.523Z] Serving at port 8372
+
+[debug] [2023-05-23T08:12:13.006Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-05-23T08:12:13.015Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/challenge2-5e031/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/challenge2-5e031/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-05-23T08:13:10.090Z] [work-queue] {"queuedWork":["/challenge2-5e031/us-central1/api-2023-05-23T08:13:10.090Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-05-23T08:13:10.090Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/challenge2-5e031/us-central1/api-2023-05-23T08:13:10.090Z"],"workRunningCount":1}
+[debug] [2023-05-23T08:13:10.091Z] Accepted request GET /challenge2-5e031/us-central1/api --> us-central1-api
+[debug] [2023-05-23T08:13:10.095Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-05-23T08:13:10.096Z] [functions] Got req.url=/challenge2-5e031/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge2-5e031/us-central1/api, mapping to path=/"}}
+[debug] [2023-05-23T08:13:10.110Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-05-23T08:13:10.111Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-05-23T08:13:11.884Z] [runtime-status] [4236] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.5.0","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4236] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-05-23T08:13:11.886Z] [runtime-status] [4236] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4236] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-05-23T08:13:11.887Z] [runtime-status] [4236] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4236] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-05-23T08:13:11.888Z] [runtime-status] [4236] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4236] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-05-23T08:13:12.226Z] [runtime-status] [4236] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4236] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-05-23T08:13:12.227Z] [runtime-status] [4236] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4236] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-05-23T08:13:12.228Z] [runtime-status] [4236] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4236] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-05-23T08:13:12.230Z] [runtime-status] [4236] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.5.0","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4236] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-05-23T08:13:12.282Z] [runtime-status] [4236] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4236] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-05-23T08:13:12.283Z] [runtime-status] [4236] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.5.0","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4236] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2023-05-23T08:13:12.538Z] [runtime-status] [4236] Functions runtime initialized. {"cwd":"C:\\Users\\Saad\\Amazon App\\my-app\\functions","node_version":"18.13.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4236] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\",\"node_version\":\"18.13.0\"}"}}
+[debug] [2023-05-23T08:13:12.539Z] [runtime-status] [4236] Listening to port: \\?\pipe\fire_emu_72b3f38eb0df1851 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [4236] Listening to port: \\\\?\\pipe\\fire_emu_72b3f38eb0df1851"}}
+[debug] [2023-05-23T08:13:12.545Z] [worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: IDLE"}}
+[debug] [2023-05-23T08:13:12.546Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-05-23T08:13:12.547Z] [worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: BUSY"}}
+[info] i  functions: Finished "us-central1-api" in 9.6855ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 9.6855ms"}}
+[debug] [2023-05-23T08:13:12.557Z] [worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: IDLE"}}
+[debug] [2023-05-23T08:13:12.558Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-05-23T08:13:12.722Z] Functions emulator received unknown request at path /favicon.ico
+[debug] [2023-05-23T08:13:25.358Z] [work-queue] {"queuedWork":["/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:13:25.358Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-05-23T08:13:25.358Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:13:25.358Z"],"workRunningCount":1}
+[debug] [2023-05-23T08:13:25.358Z] Accepted request POST /challenge2-5e031/us-central1/api/payments/create?total=939800 --> us-central1-api
+[debug] [2023-05-23T08:13:25.363Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-05-23T08:13:25.363Z] [functions] Got req.url=/challenge2-5e031/us-central1/api/payments/create?total=939800, mapping to path=/payments/create?total=939800 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge2-5e031/us-central1/api/payments/create?total=939800, mapping to path=/payments/create?total=939800"}}
+[debug] [2023-05-23T08:13:25.364Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-05-23T08:13:25.365Z] [worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: BUSY"}}
+[debug] [2023-05-23T08:13:25.370Z] [work-queue] {"queuedWork":["/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:13:25.370Z"],"queueLength":1,"runningWork":["/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:13:25.358Z"],"workRunningCount":1}
+[debug] [2023-05-23T08:13:25.371Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:13:25.358Z","/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:13:25.370Z"],"workRunningCount":2}
+[debug] [2023-05-23T08:13:25.371Z] Accepted request POST /challenge2-5e031/us-central1/api/payments/create?total=939800 --> us-central1-api
+[debug] [2023-05-23T08:13:25.374Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-05-23T08:13:25.374Z] [functions] Got req.url=/challenge2-5e031/us-central1/api/payments/create?total=939800, mapping to path=/payments/create?total=939800 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge2-5e031/us-central1/api/payments/create?total=939800, mapping to path=/payments/create?total=939800"}}
+[debug] [2023-05-23T08:13:25.387Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-05-23T08:13:25.388Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount>>> 939800 {"user":"Payment Request Recieved BOOM!!! for this amount>>> 939800","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount>>> 939800"}}
+[info] i  functions: Finished "us-central1-api" in 664.6579ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 664.6579ms"}}
+[debug] [2023-05-23T08:13:26.031Z] [worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: IDLE"}}
+[debug] [2023-05-23T08:13:26.031Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:13:25.370Z"],"workRunningCount":1}
+[debug] [2023-05-23T08:13:27.311Z] [runtime-status] [9116] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.5.0","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9116] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-05-23T08:13:27.313Z] [runtime-status] [9116] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9116] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-05-23T08:13:27.314Z] [runtime-status] [9116] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9116] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-05-23T08:13:27.315Z] [runtime-status] [9116] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9116] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-05-23T08:13:27.651Z] [runtime-status] [9116] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9116] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-05-23T08:13:27.651Z] [runtime-status] [9116] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9116] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-05-23T08:13:27.652Z] [runtime-status] [9116] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9116] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-05-23T08:13:27.654Z] [runtime-status] [9116] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.5.0","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9116] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-05-23T08:13:27.658Z] [runtime-status] [9116] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9116] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-05-23T08:13:27.658Z] [runtime-status] [9116] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.5.0","resolution":"C:\\Users\\Saad\\Amazon App\\my-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9116] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2023-05-23T08:13:27.922Z] [runtime-status] [9116] Functions runtime initialized. {"cwd":"C:\\Users\\Saad\\Amazon App\\my-app\\functions","node_version":"18.13.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9116] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Saad\\\\Amazon App\\\\my-app\\\\functions\",\"node_version\":\"18.13.0\"}"}}
+[debug] [2023-05-23T08:13:27.922Z] [runtime-status] [9116] Listening to port: \\?\pipe\fire_emu_3203d5ad4d64f188 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9116] Listening to port: \\\\?\\pipe\\fire_emu_3203d5ad4d64f188"}}
+[debug] [2023-05-23T08:13:27.992Z] [worker-us-central1-api-2e01adb9-d313-418d-a723-fb565fadb725]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2e01adb9-d313-418d-a723-fb565fadb725]: IDLE"}}
+[debug] [2023-05-23T08:13:27.993Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-05-23T08:13:27.994Z] [worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: BUSY"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount>>> 939800 {"user":"Payment Request Recieved BOOM!!! for this amount>>> 939800","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount>>> 939800"}}
+[info] i  functions: Finished "us-central1-api" in 307.8284ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 307.8284ms"}}
+[debug] [2023-05-23T08:13:28.302Z] [worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: IDLE"}}
+[debug] [2023-05-23T08:13:28.303Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-05-23T08:17:55.597Z] [work-queue] {"queuedWork":["/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:17:55.597Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-05-23T08:17:55.597Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:17:55.597Z"],"workRunningCount":1}
+[debug] [2023-05-23T08:17:55.597Z] Accepted request POST /challenge2-5e031/us-central1/api/payments/create?total=3319800 --> us-central1-api
+[debug] [2023-05-23T08:17:55.601Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-05-23T08:17:55.601Z] [functions] Got req.url=/challenge2-5e031/us-central1/api/payments/create?total=3319800, mapping to path=/payments/create?total=3319800 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge2-5e031/us-central1/api/payments/create?total=3319800, mapping to path=/payments/create?total=3319800"}}
+[debug] [2023-05-23T08:17:55.601Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-05-23T08:17:55.604Z] [worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: BUSY"}}
+[debug] [2023-05-23T08:17:55.605Z] [work-queue] {"queuedWork":["/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:17:55.605Z"],"queueLength":1,"runningWork":["/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:17:55.597Z"],"workRunningCount":1}
+[debug] [2023-05-23T08:17:55.606Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:17:55.597Z","/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:17:55.605Z"],"workRunningCount":2}
+[debug] [2023-05-23T08:17:55.606Z] Accepted request POST /challenge2-5e031/us-central1/api/payments/create?total=3319800 --> us-central1-api
+[debug] [2023-05-23T08:17:55.610Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-05-23T08:17:55.610Z] [functions] Got req.url=/challenge2-5e031/us-central1/api/payments/create?total=3319800, mapping to path=/payments/create?total=3319800 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge2-5e031/us-central1/api/payments/create?total=3319800, mapping to path=/payments/create?total=3319800"}}
+[debug] [2023-05-23T08:17:55.611Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-05-23T08:17:55.611Z] [worker-us-central1-api-2e01adb9-d313-418d-a723-fb565fadb725]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2e01adb9-d313-418d-a723-fb565fadb725]: BUSY"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount>>> 3319800 {"user":"Payment Request Recieved BOOM!!! for this amount>>> 3319800","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount>>> 3319800"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount>>> 3319800 {"user":"Payment Request Recieved BOOM!!! for this amount>>> 3319800","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount>>> 3319800"}}
+[info] i  functions: Finished "us-central1-api" in 528.9399ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 528.9399ms"}}
+[debug] [2023-05-23T08:17:56.133Z] [worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: IDLE"}}
+[debug] [2023-05-23T08:17:56.134Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/challenge2-5e031/us-central1/api/payments/create-2023-05-23T08:17:55.605Z"],"workRunningCount":1}
+[info] i  functions: Finished "us-central1-api" in 547.6427ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 547.6427ms"}}
+[debug] [2023-05-23T08:17:56.160Z] [worker-us-central1-api-2e01adb9-d313-418d-a723-fb565fadb725]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2e01adb9-d313-418d-a723-fb565fadb725]: IDLE"}}
+[debug] [2023-05-23T08:17:56.160Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-05-23T08:20:51.448Z] Received signal SIGINT (Ctrl-C) 1
+[info]  
+[info] i  emulators: Received SIGINT (Ctrl-C) for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGINT (Ctrl-C) signal again to stop right now. 
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  ui: Stopping Emulator UI {"metadata":{"emulator":{"name":"ui"},"message":"Stopping Emulator UI"}}
+[warn] !  Emulator UI has exited upon receiving signal: SIGINT 
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  hosting: Stopping Hosting Emulator {"metadata":{"emulator":{"name":"hosting"},"message":"Stopping Hosting Emulator"}}
+[info] i  eventarc: Stopping Eventarc Emulator {"metadata":{"emulator":{"name":"eventarc"},"message":"Stopping Eventarc Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[info] i  logging: Stopping Logging Emulator {"metadata":{"emulator":{"name":"logging"},"message":"Stopping Logging Emulator"}}
+[debug] [2023-05-23T08:20:51.478Z] [worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: exited"}}
+[debug] [2023-05-23T08:20:51.478Z] [worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-47f45d9f-979f-4cd5-9f32-beb48f8660a7]: FINISHED"}}
+[debug] [2023-05-23T08:20:51.478Z] [worker-us-central1-api-2e01adb9-d313-418d-a723-fb565fadb725]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2e01adb9-d313-418d-a723-fb565fadb725]: exited"}}
+[debug] [2023-05-23T08:20:51.479Z] [worker-us-central1-api-2e01adb9-d313-418d-a723-fb565fadb725]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2e01adb9-d313-418d-a723-fb565fadb725]: FINISHED"}}
+[debug] [2023-05-23T08:21:01.495Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-05-23T08:21:12.687Z] ----------------------------------------------------------------------
+[debug] [2023-05-23T08:21:12.689Z] Command:       D:\node.exe C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-05-23T08:21:12.689Z] CLI Version:   11.25.2
+[debug] [2023-05-23T08:21:12.690Z] Platform:      win32
+[debug] [2023-05-23T08:21:12.690Z] Node Version:  v18.13.0
+[debug] [2023-05-23T08:21:12.691Z] Time:          Tue May 23 2023 13:51:12 GMT+0530 (India Standard Time)
+[debug] [2023-05-23T08:21:12.691Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-23T08:21:12.695Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-23T08:21:12.810Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-23T08:21:12.810Z] > authorizing via signed-in user (saad26ahmed@gmail.com)
+[debug] [2023-05-23T08:21:12.810Z] [iam] checking project challenge2-5e031 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-05-23T08:21:12.811Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T08:21:12.812Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T08:21:12.812Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-05-23T08:21:33.857Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-05-23T08:21:33.918Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-05-23T08:21:33.918Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T08:21:33.919Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T08:21:33.919Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-23T08:21:55.031Z] [functions] service account IAM check errored, deploy may fail:Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci {"name":"FirebaseError","children":[],"exit":1,"message":"Authentication Error: Your credentials are no longer valid. Please run \u001b[1mfirebase login --reauth\u001b[22m\n\nFor CI servers and headless environments, generate a new token with \u001b[1mfirebase login:ci\u001b[22m","status":500}
+[debug] [2023-05-23T08:21:55.032Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T08:21:55.032Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T08:21:55.032Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-23T08:22:16.085Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-05-23T08:22:21.103Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-05-23T08:53:17.610Z] ----------------------------------------------------------------------
+[debug] [2023-05-23T08:53:17.612Z] Command:       D:\node.exe C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-05-23T08:53:17.613Z] CLI Version:   11.25.2
+[debug] [2023-05-23T08:53:17.613Z] Platform:      win32
+[debug] [2023-05-23T08:53:17.613Z] Node Version:  v18.13.0
+[debug] [2023-05-23T08:53:17.614Z] Time:          Tue May 23 2023 14:23:17 GMT+0530 (India Standard Time)
+[debug] [2023-05-23T08:53:17.614Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-23T08:53:17.628Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-23T08:53:17.751Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-23T08:53:17.751Z] > authorizing via signed-in user (saad26ahmed@gmail.com)
+[debug] [2023-05-23T08:53:17.751Z] [iam] checking project challenge2-5e031 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-05-23T08:53:17.752Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T08:53:17.753Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T08:53:17.754Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-05-23T08:53:39.778Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-05-23T08:53:39.866Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-05-23T08:53:39.867Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T08:53:39.868Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T08:53:39.868Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-23T08:54:00.932Z] [functions] service account IAM check errored, deploy may fail:Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci {"name":"FirebaseError","children":[],"exit":1,"message":"Authentication Error: Your credentials are no longer valid. Please run \u001b[1mfirebase login --reauth\u001b[22m\n\nFor CI servers and headless environments, generate a new token with \u001b[1mfirebase login:ci\u001b[22m","status":500}
+[debug] [2023-05-23T08:54:00.933Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T08:54:00.934Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T08:54:00.934Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-23T08:54:21.997Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-05-23T08:54:27.011Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-05-23T08:56:56.131Z] ----------------------------------------------------------------------
+[debug] [2023-05-23T08:56:56.134Z] Command:       D:\node.exe C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2023-05-23T08:56:56.135Z] CLI Version:   11.25.2
+[debug] [2023-05-23T08:56:56.135Z] Platform:      win32
+[debug] [2023-05-23T08:56:56.136Z] Node Version:  v18.13.0
+[debug] [2023-05-23T08:56:56.138Z] Time:          Tue May 23 2023 14:26:56 GMT+0530 (India Standard Time)
+[debug] [2023-05-23T08:56:56.138Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-23T08:56:56.142Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-23T08:56:56.281Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-23T08:56:56.281Z] > authorizing via signed-in user (saad26ahmed@gmail.com)
+[debug] [2023-05-23T08:56:56.282Z] [iam] checking project challenge2-5e031 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2023-05-23T08:56:56.284Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T08:56:56.285Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T08:56:56.285Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-05-23T08:57:17.344Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-05-23T08:57:18.422Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-05-23T08:57:18.423Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T08:57:18.423Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T08:57:18.423Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-23T08:57:39.464Z] [functions] service account IAM check errored, deploy may fail:Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci {"name":"FirebaseError","children":[],"exit":1,"message":"Authentication Error: Your credentials are no longer valid. Please run \u001b[1mfirebase login --reauth\u001b[22m\n\nFor CI servers and headless environments, generate a new token with \u001b[1mfirebase login:ci\u001b[22m","status":500}
+[info] 
+[info] === Deploying to 'challenge2-5e031'...
+[info] 
+[info] i  deploying functions 
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[debug] [2023-05-23T08:57:56.213Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-05-23T09:07:02.453Z] ----------------------------------------------------------------------
+[debug] [2023-05-23T09:07:02.455Z] Command:       D:\node.exe C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2023-05-23T09:07:02.456Z] CLI Version:   11.25.2
+[debug] [2023-05-23T09:07:02.456Z] Platform:      win32
+[debug] [2023-05-23T09:07:02.456Z] Node Version:  v18.13.0
+[debug] [2023-05-23T09:07:02.457Z] Time:          Tue May 23 2023 14:37:02 GMT+0530 (India Standard Time)
+[debug] [2023-05-23T09:07:02.457Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-23T09:07:02.462Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-23T09:07:02.580Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-23T09:07:02.580Z] > authorizing via signed-in user (saad26ahmed@gmail.com)
+[debug] [2023-05-23T09:07:02.580Z] [iam] checking project challenge2-5e031 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2023-05-23T09:07:02.581Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T09:07:02.583Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T09:07:02.583Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-05-23T09:07:23.639Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-05-23T09:07:23.701Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-05-23T09:07:23.701Z] > refreshing access token with scopes: []
+[debug] [2023-05-23T09:07:23.702Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-23T09:07:23.702Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-23T09:07:44.765Z] [functions] service account IAM check errored, deploy may fail:Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci {"name":"FirebaseError","children":[],"exit":1,"message":"Authentication Error: Your credentials are no longer valid. Please run \u001b[1mfirebase login --reauth\u001b[22m\n\nFor CI servers and headless environments, generate a new token with \u001b[1mfirebase login:ci\u001b[22m","status":500}
+[info] 
+[info] === Deploying to 'challenge2-5e031'...
+[info] 
+[info] i  deploying functions 
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[debug] [2023-05-23T09:07:55.686Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-05-23T09:12:04.724Z] ----------------------------------------------------------------------
+[debug] [2023-05-23T09:12:04.726Z] Command:       D:\node.exe C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-23T09:12:04.726Z] CLI Version:   11.25.2
+[debug] [2023-05-23T09:12:04.727Z] Platform:      win32
+[debug] [2023-05-23T09:12:04.727Z] Node Version:  v18.13.0
+[debug] [2023-05-23T09:12:04.728Z] Time:          Tue May 23 2023 14:42:04 GMT+0530 (India Standard Time)
+[debug] [2023-05-23T09:12:04.728Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-23T09:12:04.732Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-23T09:12:04.850Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-23T09:12:04.850Z] > authorizing via signed-in user (saad26ahmed@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Saad\Amazon App\my-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-05-23T09:12:25.920Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-05-23T09:22:35.833Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Saad\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.

@@ -1,0 +1,24 @@
+.addto_button{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+}
+.item_heading{
+    font-weight:800;
+    font-size:1.5rem;
+}
+.item_price{
+    font-weight:600;
+    font-size:1rem;
+}
+.col_image{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    object-fit: contain;
+    height:165px;
+}
+.dark{
+    color:white;
+}
